@@ -1,5 +1,5 @@
-global$connection;  <?php
-	
+  <?php
+  global $connection;
 	 session_start();
 	include_once("DbConn.php");
   // if (empty($_SESSION['ID'])) {
@@ -114,7 +114,9 @@ global$connection;  <?php
 				{
 
 				echo "<a href='update.php?ID=$service[ID]'style='color:yellow; font-size:25px;'>UPDATE</a>";
-				
+                echo " n/";
+ 				echo "<a href='DeleteService.php?ID=$service[ID]'style='color:yellow; font-size:25px;'>DELETE</a>";
+
 				}
 				?>
 

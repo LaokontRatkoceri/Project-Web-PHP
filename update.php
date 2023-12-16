@@ -3,13 +3,15 @@
  //    header('Location:login.php');
  //  }
 
-global $connection;
+global $connection, $connect, $deleteService, $user;
 include_once("DbConn.php");
 	$id=$_GET['ID'];
 	$sql="SELECT * FROM services WHERE ID=$id";
-	$getServices=$connection->prepare($sql);
+	$getServices = $connection->prepare($sql);
 	$getServices->execute();
 	$services=$getServices->fetchAll();
+
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -111,7 +113,8 @@ include_once("DbConn.php");
 							
 							<!-- <br> -->
 							<div>
-							<button type="submit" name='update'>Update</button>
+                                <button type="submit" name='update'>Update</button>
+                                <button style="margin-bottom: 2px" type="submit" name='delete'>Delete</button>
 							</div>
 						</form>
 					</div>

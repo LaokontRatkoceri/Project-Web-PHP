@@ -5,7 +5,7 @@
  //  }
 
 global $connection;
-include_once('dbconn.php');
+include_once('DbConn.php');
 
 	$id = $_GET['ID'];
 
