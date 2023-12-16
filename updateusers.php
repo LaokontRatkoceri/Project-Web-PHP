@@ -4,7 +4,8 @@
  //    header('Location:login.php');
  //  }
 
-	include_once('dbconn.php');
+global $connection;
+include_once('dbconn.php');
 
 	$id = $_GET['ID'];
 

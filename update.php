@@ -2,8 +2,9 @@
  // if (empty($_SESSION['ID'])) {
  //    header('Location:login.php');
  //  }
-		
-	include_once("DbConn.php");
+
+global $connection;
+include_once("DbConn.php");
 	$id=$_GET['ID'];
 	$sql="SELECT * FROM services WHERE ID=$id";
 	$getServices=$connection->prepare($sql);

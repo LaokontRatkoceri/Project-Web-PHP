@@ -1,5 +1,6 @@
 <?php
-	require"DbConn.php"; //dallimi ne mes require and inclde - search
+global $connection;
+require"DbConn.php"; //dallimi ne mes require and inclde - search
 
 	session_start();
 

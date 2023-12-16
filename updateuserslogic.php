@@ -1,6 +1,7 @@
 <?php
 
-		include_once("dbconn.php");
+global $connection;
+include_once("dbconn.php");
 
 		if(isset($_POST['update']))
 		{

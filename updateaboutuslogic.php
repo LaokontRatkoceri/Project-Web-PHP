@@ -1,6 +1,7 @@
 <?php
-	
-	include_once("DbConn.php");
+
+global $connection;
+include_once("DbConn.php");
 	session_start();
 	if(isset($_POST['update']))
 	{

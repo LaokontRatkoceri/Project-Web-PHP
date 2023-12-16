@@ -1,5 +1,6 @@
 <?php
-	session_start();
+global $connection;
+session_start();
 	 // if (empty($_SESSION['ID'])) {
   //   header('Location:login.php');
   // 	}
