@@ -1,0 +1,311 @@
+body{
+  font-family:'Open-sans', sans-serif;
+  font-size:17px;
+  line-height:1.5em;
+  margin:0;
+  padding:0;
+  background-color: black;
+}
+
+table
+{
+  width:  70%;
+}
+
+img{
+  width:100%;
+}
+
+.container{
+  margin:auto;
+}
+h1, h2{
+  color:#ffffff;
+}
+
+/* COMMON CLASSES */
+.primary-text{
+  color:#ffff00;
+}
+
+.primary-background{
+  background:#ffffff;
+}
+
+/* HEADER */
+#main-header{
+  border-bottom:1px solid #ffff00;
+}
+
+/* NAVBAR */
+#navbar{
+  text-transform:uppercase;
+}
+
+#navbar li{
+  display:inline;
+  padding-right:20px;
+  list-style:none;
+}
+
+#navbar a{
+  text-decoration:none;
+  color:#ffffff;
+}
+
+#navbar li.current a, #navbar a:hover{
+  color:#ffff00;
+  border-bottom: 3px solid #ffff00;
+  padding-bottom:3px;
+}
+
+/* SHOWCASE */
+#showcase{
+  background:url('images/showcase_bg.jpg') no-repeat center center;
+  border-bottom:1px solid #ffff00;
+  margin-bottom:30px;
+}
+
+#showcase .row{
+  height:600px;
+}
+
+#showcase h1{
+  font-size:50px;
+  margin:0;
+  padding-bottom:20px;
+}
+
+#showcase p{
+  color:#ccc;
+  margin:0;
+}
+
+#showcase .showcase-content{
+  background:#333;
+  color:#fff;
+  border-radius:90px;
+  padding:40px;
+  opacity:0.9;
+}
+
+/* FEATURES */
+#features h2{
+  font-size:35px;
+  margin:0;
+  padding-bottom:10px;
+  color:#ffff00;
+}
+#features h4{
+  color:#ffff00;
+}
+
+
+#features p{
+  color:#888;
+  margin:0;
+  margin-bottom:40px;
+  color:#ffffff;
+}
+
+#features .fa{
+  font-size:60px;
+  color:#ffffff;
+}
+
+/* INFO */
+#info{
+  background:#333 url('../images/info-bg.jpg') no-repeat;
+  color:#fff;
+}
+
+#info h2{
+  font-size:35px;
+  margin:0;
+  padding-bottom:10px;
+}
+
+#info ul{
+  list-style:none;
+  padding:0;
+}
+
+#info li{
+  line-height:2em;
+  font-size:20px;
+}
+
+/* COMPANY */
+#company{
+  background:#ffff00;
+  color:#000000;
+  padding:10px 0;
+}
+
+#company h4{
+  text-transform:uppercase;
+  margin-bottom:0;
+}
+
+#company ul{
+  padding:0;
+  list-style:none;
+  line-height:2em;
+}
+
+#company input[type="text"]{
+  padding:7px;
+}
+
+#company button{
+  background:#222;
+  color:#fff;
+  padding:10px;
+  border:0;
+}
+
+/* FOOTER */
+#main-footer{
+  background:#000000;
+  color:#fff;
+}
+
+/* PAGE */
+#page{
+  margin-bottom:40px;
+}
+
+/* SERVICES */
+.services ul li{
+  list-style:none;
+  padding:10px;
+}
+
+.services ul li:nth-child(odd){
+  background:#000000;
+  color:#fff;
+}
+
+.services ul li:nth-child(even){
+  background:#ffff00; /*yellow and black */
+  color:#000000;
+}
+
+/* CONTACT */
+.contact form{
+  background:#ffff00;
+  color:#fff;
+  padding:20px;
+}
+
+.contact form input[type="text"]{
+  width:50%;
+  height:30px;
+  margin-bottom:10px;
+}
+
+.contact form textarea{
+  width:50%;
+  height:100px;
+}
+
+.contact form button{
+  width:50%;
+  padding:10px 0;
+  border:0;
+  background:#222;
+  color:#fff;
+}
+
+.contact form label{
+  text-transform:uppercase;
+  color: #000000;
+}
+span{
+  color: #ffff00;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* MEDIA QUERIES */
+@media(max-width:800px){
+  #showcase h1{
+    font-size:30px;
+  }
+}
+
+@media(max-width:500px){
+  #showcase .showcase-content{
+    padding:40px 10px;
+  }
+}
+/* LOGIN */
+.login form{
+  background:#ffff00;
+  color:#fff;
+  padding:20px;
+}
+.login form input[type="text"]{
+  width:50%;
+  height:30px;
+  margin-bottom:10px;
+}
+.login form input[type="password"]{
+  width:50%;
+  height:30px;
+  margin-bottom:10px;
+}
+.login form input[type="email"]{
+  width:50%;
+  height:30px;
+  margin-bottom:10px;
+}
+
+.login form textarea{
+  width:50%;
+  height:100px;
+}
+
+.login form button{
+  width:50%;
+  padding:10px 0;
+  border:0;
+  background:#222;
+  color:
+  #fff;
+}
+/* SIGN UP */
+#msg{
+    visibility: hidden;
+    min-width: 250px;
+    background-color: yellow;
+    color:#000;
+    text-align: center;
+    border-radius: 2px;
+    padding: 10px;
+    position: fixed;
+    z-index: 1;
+    right: 30%;
+    top: 30px;
+    font-size: 17px;
+    margin-right: 30px;
+
+  }
+  #msg.show{
+    visibility: visible;
+    -webkit-animation: fade in 0.5s,fade out 0.5s 2.5s;
+    animation: fade in 0.5s, fadeout 0.5s 2.5s;
+  }
+  /*MAP Contact*/
+  #update a{
+    color:white;
+    font-size: 40px;
+  }
+ table, tbody
+ {
+  width:  70%;
+ }

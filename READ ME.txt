@@ -1,0 +1,15 @@
+Name and Surname	ID
+
+Jehona Binaku		151637240
+Erza Bytyqi		181945819
+Bledar Imeri		181943532
+
+- Projekti permban 5 faqe ne HOME (slider) dhe 4 nenfaqe te tjera 
+
+- Eshte i shkruar ne PHP jo ne OOP PHP
+
+- Useri per admin ka premission per ndryshime( username: admin   password: admin) 
+
+- Admini mund te beje ndryshime ne faqe, mund te shtoj service te update service, dhe te shtoj, fshiej, updare users te tjere.
+
+- Te dhenat ne faqen about us dhe services jane dinamike, te regjistruara ne databaze te cilat mund te shtohen dhe ndryshohen
