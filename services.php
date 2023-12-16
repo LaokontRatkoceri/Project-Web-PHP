@@ -1,4 +1,4 @@
- <?php
+global$connection;  <?php
 	
 	 session_start();
 	include_once("DbConn.php");

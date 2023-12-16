@@ -1,6 +1,7 @@
 <?php
 
-	include_once("DbConn.php");
+global $connection;
+include_once("DbConn.php");
 	session_start();
 	 // if (empty($_SESSION['ID'])) {
   //   header('Location:login.php');
